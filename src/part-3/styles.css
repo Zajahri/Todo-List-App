@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main {
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(160, 231, 231);
+}
+
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+.title {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    height: 300px;
+    max-width: 350px;
+    background-color: white;
+    margin: 50px;
+}
+
+.container p {
+    text-align: center;
+}
+
+.emo {
+    font-size: 60px;
+    padding: 10px;
+}
+
+.name {
+    color: rgb(15, 109, 140);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.meaning {
+    padding-top: 10px;
+    font-size: 16px;
+}
